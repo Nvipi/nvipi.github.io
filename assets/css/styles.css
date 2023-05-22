@@ -1,0 +1,173 @@
+.fit-cover {
+    object-fit: cover;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background: rgb(249, 249, 249);
+}
+
+.navbar {
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgb(205, 205, 205);
+}
+
+.fit-cover {
+    min-height: 275px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h1 {
+    color: rgb(45, 46, 50);
+}
+
+p {
+    opacity: 0.60;
+}
+
+.head-text {
+    max-width: 450px;
+}
+
+.sec-dif {
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgb(205, 205, 205);
+}
+
+.final {
+    padding: 5px 0px 15px 0px;
+    color: rgb(234, 234, 234);
+}
+
+footer {
+    background: #2d2e32;
+}
+
+.contacto {
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgb(205, 205, 205);
+}
+
+Section {
+    padding: 100px 0px 50px 0;
+}
+
+.tech-row {
+    padding: 20px 0px 20px 0px;
+}
+
+.text-tech {
+    border-right: 3px solid rgb(25, 25, 25);
+    margin: 0px 50px;
+}
+
+.tech-h {
+    margin-bottom: 10px;
+}
+
+.bs-icon {
+    --bs-icon-size: 0.75rem;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--bs-icon-size);
+    width: calc(var(--bs-icon-size) * 2);
+    height: calc(var(--bs-icon-size) * 2);
+    color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+    --bs-icon-size: 1rem;
+    width: calc(var(--bs-icon-size) * 1.5);
+    height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+    --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+    --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+    --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+    --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+    color: var(--bs-white);
+    background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+    color: var(--bs-primary);
+    background: rgba(var(--bs-primary-rgb), 0.2);
+}
+
+.bs-icon.bs-icon-semi-white {
+    color: var(--bs-primary);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.bs-icon.bs-icon-rounded {
+    border-radius: 0.5rem;
+}
+
+.bs-icon.bs-icon-circle {
+    border-radius: 50%;
+}
+
+.head-proyect {
+    max-width: 65%;
+    margin-bottom: 25px;
+}
+
+.proyecto {
+    max-width: 75%;
+    border: 2px solid rgb(234, 234, 234);
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 5px rgb(224, 224, 224);
+    background: #ffffff;
+    margin-bottom: 25px;
+}
+
+.icon-tec {
+    margin: 10px;
+}
+
+@media screen and (max-width: 1199px) {
+    .inicio {
+        padding-top: 90px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .inicio {
+        padding-top: 40px;
+    }
+}
+
+.links:hover {
+    color: hsl(234, 93%, 40%);
+}
+
+.icon-proyect {
+    border: 2px solid rgb(234, 234, 234);
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 5px rgb(224, 224, 224);
+}
+
+.icon-repo {
+    margin: 20px 0px;
+}
+
+.link-a {
+    color: white;
+}
